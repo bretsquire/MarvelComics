@@ -11,3 +11,6 @@ As a first iteration, the UI was simple enough that there did not seem to be a n
 
 ### Future Iterations:
 As far as apps go, scrolling a list of comics is not very exciting. The next iteration can be enhanced to add a comic details page and tabs for the other entity types in the API (Creators, Characters, Events, Stories and Series) as well as a webview to access public websites associated with entity types. Once a UX flow between the entity types is determined then later iterations will include search functionality, bookmarking and maybe trivia.
+
+### Simulator Instructions
+To run in the Xcode simulator you will need to [obtain API keys](https://developer.marvel.com/signup) from the Marvel developer site. Once obtained enter the private and public keys into the placeholders in the [AuthHelper file](https://github.com/bretsquire/MarvelComics/blob/fe59aa9612b074a6c0a410f7e019a2cf9da9e4db/MarvelComics/AuthHelper.swift#L12).
